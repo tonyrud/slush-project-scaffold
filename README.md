@@ -1,4 +1,4 @@
-# Slush Build 
+# Slush Project Scaffolding 
 
 > Generator for scaffolding basic front end projects
 
@@ -8,7 +8,7 @@
 Install `slush-project-scaffold` globally:
 
 ```bash
-$ npm install -g slush-project-scaffold
+$ npm install -g slush gulp bower slush-project-scaffold
 ```
 
 ### Usage
