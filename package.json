@@ -1,5 +1,5 @@
 {
-  "name": "slush-build",
+  "name": "slush-project-scaffold",
   "description": "Generator that starts scaffolding for our projects",
   "version": "0.1.0",
   "homepage": "https://github.com/tonyrud/slush-project-scaffold",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tonyrud/slush-project-scaffold"
+    "url": "https://github.com/tonyrud/slush-project-scaffold.git"
   },
   "bugs": {
     "url": "https://github.com/tonyrud/slush-project-scaffold/issues"
