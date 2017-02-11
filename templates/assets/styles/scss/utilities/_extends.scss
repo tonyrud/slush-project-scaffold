@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+ *  Extends
+ *--------------------------------------------------------------------*/
+
+// Center text
+%centered {
+  text-align: center;
+}
+
+%box-shadow {
+  box-shadow: 0 8px 20px 0px $color-shadow;
+}
+
+//transitions
+%transition-hover {
+  @include transitions($transitionWhat, $transitionSpeed / 2, $transitionEase);
+}

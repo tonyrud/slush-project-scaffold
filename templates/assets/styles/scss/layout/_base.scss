@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+ *  Base Styles
+ *--------------------------------------------------------------------*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  @extend %centered;
+  // color: palette($palettes, fonts, med-dark);
+  margin: 0;
+  font-family: $font-family--primary;
+  font-size: $base__font-size;
+  background: #eee;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

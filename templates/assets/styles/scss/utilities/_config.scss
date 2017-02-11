@@ -1,0 +1,53 @@
+//---------------
+//Global Config
+//---------------
+//Font stacks and weights
+$font-url--google: "https://fonts.googleapis.com/css?family=Oxygen:300,400,700";
+$font-family--primary: 'Oxygen',
+'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif;
+$font-family--secondary: 'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif;
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 700;
+$font-weight--ultra-bold: 900;
+// Descriptive Base Colors
+$white: #fff;
+$black: #0b0b0b;
+$grey: #797e83;
+$fountain-blue: #52bab3;
+$shadow-green: #A4CFBE;
+$faded-jade: #417378;
+$coconut-cream: #e3edec;
+$lunar-green: #3E423A;
+$kokoda: #6C6E58;
+// Color Usage
+//http://chir.ag/projects/name-that-color/#6195ED
+$color-primary: $fountain-blue;
+$color-secondary: $faded-jade;
+$color-accent: $shadow-green;
+$color-shadow: rgba($black, .2);
+$color-background: $coconut-cream;
+// Text
+$base__font-size: 16px;
+$base__line: 24px;
+// Media query breakpoints
+$break-mobile: 500px;
+$break-tablet: 768px;
+$break-desktop: 1024px;
+//animation variables
+$transitionNavSpeed: .15s;
+$transitionWhat: all;
+$transitionSpeed: .4s;
+$transitionDelay: .3s;
+$transitionEase: ease-in-out;
+$transitionBounce: cubic-bezier(1, -0.3, 0.35, 1.335);
+// Path to assets
+$path--rel: "../img";
+$palettes: ( black: ( light: lighten($black, 10%), base: $black, dark: darken($black, 10%)), fonts: ( light: $white, med-light: $faded-jade, med-dark: $lunar-green, dark: lighten($black, 10%)), buttons: ( default: lighten($black, 30%), selected: lighten($faded-jade, 15%), hover: $faded-jade));

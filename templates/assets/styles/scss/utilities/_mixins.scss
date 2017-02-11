@@ -1,0 +1,70 @@
+/*
+ *  --------------------------------------------------------------------
+ *  Mixins and Functions
+ *  --------------------------------------------------------------------
+ */
+
+//pixels to em function
+@function em($target, $context: $base__font-size) {
+    @return ($target / $context) * 1em;
+}
+
+//call color palette modifiers
+@function palette($paletteName, $element, $shade: 'base') {
+    @return map-get(map-get($paletteName, $element), $shade);
+}
+
+// media query mixin
+@mixin mQuery($break) {
+    @if $break==mobile {
+        @media (min-width: $break-mobile) {
+            @content;
+        }
+    }
+    @else if $break==tablet {
+        @media (min-width: $break-tablet) {
+            @content;
+        }
+    }
+    @else if $break==desktop {
+        @media (min-width: $break-desktop) {
+            @content;
+        }
+    }
+}
+
+// Flexbox
+@mixin flexBox($flow: row, $justify: center) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: center;
+}
+
+// transition
+@mixin transitions($what, $speed, $style, $delay: 0s) {
+    transition: $what $speed $delay $style;
+}
+
+// create icon sizes
+@mixin imageSize($size) {
+    width: $size;
+    height: $size;
+}
+
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+    >.item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
