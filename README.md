@@ -1,14 +1,14 @@
-# Slush Build [![Build Status](https://secure.travis-ci.org/tonyrud/slush-build.png?branch=master)](https://travis-ci.org/tonyrud/slush-build) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-build.png)](http://badges.enytc.com/for/npm/slush-build)
+# Slush Build 
 
 > Generator for scaffolding basic front end projects
 
 
 ## Getting Started
 
-Install `slush-build` globally:
+Install `slush-project-scaffold` globally:
 
 ```bash
-$ npm install -g slush-build
+$ npm install -g slush-project-scaffold
 ```
 
 ### Usage
