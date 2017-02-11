@@ -1,18 +1,18 @@
 {
   "name": "slush-build",
-  "description": "Generator that starts scaffolding our projects",
+  "description": "Generator that starts scaffolding for our projects",
   "version": "0.1.0",
-  "homepage": "https://github.com/tonyrud/slush-build",
+  "homepage": "https://github.com/tonyrud/slush-project-scaffold",
   "author": {
     "name": "Tony",
     "email": "tonrudny@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tonyrud/slush-build.git"
+    "url": "https://github.com/tonyrud/slush-project-scaffold"
   },
   "bugs": {
-    "url": "https://github.com/tonyrud/slush-build/issues"
+    "url": "https://github.com/tonyrud/slush-project-scaffold/issues"
   },
   "license": "MIT",
   "main": "slushfile.js",
