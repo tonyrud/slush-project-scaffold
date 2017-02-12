@@ -2,7 +2,6 @@
 
 var gulp = require('gulp'),
     install = require('gulp-install'),
-    update = require('gulp-update'),
     conflict = require('gulp-conflict'),
     template = require('gulp-template'),
     rename = require('gulp-rename'),
